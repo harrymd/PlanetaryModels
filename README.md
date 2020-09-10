@@ -21,7 +21,6 @@ pOrder              Order of finite elements.
 
 These parameters are set in `input.txt`, for example:
 
-
 ```
 1.0E9
 1
