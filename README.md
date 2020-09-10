@@ -1,6 +1,6 @@
 # harrymd/PlanetaryModels
 
-This repository is a fork of [Jia Shi's *PlanetaryModels*](https://github.com/js1019/PlanetaryModels) code. It contains scripts for building Earth models containg large low-shear-velocity provinces (LLSVPs).
+This repository is a fork of [Jia Shi's *PlanetaryModels*](https://github.com/js1019/PlanetaryModels) code. It contains scripts for building Earth models containing [large low-shear-velocity provinces](https://en.wikipedia.org/wiki/Large_low-shear-velocity_provinces) (LLSVPs).
 
 If you wish to use the examples here, you will have to substitute your own file paths (for example, `/your/work/directory` instead of `/work/06414/tg857131`).
 
