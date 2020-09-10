@@ -2,13 +2,13 @@
 clear all;clc;
 addpath('../modelbuilder/'); 
 
-fmesh  = '../demos/PREM/output/PREM3k/';
-fout   = 'demos/PREM3k/';
-fbase  = 'prem_3L_3k.1';
+fmesh  = '../../../output/PlanetaryModels/LLSVP/prem_0439.4_2.00_1/';
+fout   = '../../../output/NormalModes/prem_0439.4_2.00_1_00.10_01.00_1/';
+fbase  = 'mod.1';
 fdtail = '0.1000000_1.000000';
 
-JOB = 2; pOrder = 2; nproc = 48; nth = 4; 
-Radial = 6.371E3;
+JOB = 1; pOrder = 1; nproc = 48; nth = 69; 
+Radial = 6.372212611521e+03;
 
 fmeshorg = [fmesh,fbase];
 fdat =  [fout,fbase,'_JOB',int2str(JOB),'_pod',int2str(pOrder),...

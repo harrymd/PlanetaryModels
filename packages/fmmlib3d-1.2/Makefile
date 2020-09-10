@@ -20,6 +20,8 @@ MATLAB = ./matlab
 EXAMPLES = ./examples
 MWRAP = ./contrib/mwrap-0.33.3
 
+FCFLAGS = -std=legacy
+
 test: 
 	cd $(EXAMPLES); $(MAKE) clean hfmm3dpart
 
